@@ -25841,7 +25841,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function Input() {
   /* ADIM 1 */
-  var _useState = (0, _react.useState)(),
+  var _useState = (0, _react.useState)(""),
     _useState2 = _slicedToArray(_useState, 2),
     inputDeğeri = _useState2[0],
     setInputDeğeri = _useState2[1];
@@ -26175,7 +26175,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56810" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62587" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

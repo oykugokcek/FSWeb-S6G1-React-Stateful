@@ -37,7 +37,7 @@ import React, {useState} from 'react'; /* ADIM 0 */
 
 export default function Input() {
   /* ADIM 1 */
-  const [inputDeğeri, setInputDeğeri] = useState();
+  const [inputDeğeri, setInputDeğeri] = useState("");
 
   const inputuDeğiştir = evt => {
     // When the input changes, its whole value can be found inside the event object.
@@ -52,7 +52,7 @@ export default function Input() {
   const stil = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: (inputDeğeri.length>10) ? "crimson" : "royalblue",
+    color: inputDeğeri.length > 10 ? "crimson" : "royalblue",
   };
 
   return (
